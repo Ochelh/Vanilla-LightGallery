@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vanilla Light Gallery</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="gallery" id="gallery">
+    <img src="assets/img1.jpg" alt="Image 1" data-full="assets/img1.jpg"/>
+    <img src="assets/img2.jpg" alt="Image 2" data-full="assets/img2.jpg"/>
+    <img src="assets/img3.jpg" alt="Image 3" data-full="assets/img3.jpg"/>
+    <!-- Add more images -->
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" id="lightbox-img" />
+    <div class="nav">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
