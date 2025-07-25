@@ -17,6 +17,7 @@ A lightweight, dependency-free image gallery written in modern JavaScript. Inspi
 
 ```html
 <script type="module" src="js/main.js"></script>
+```
 
 ```html
 <body>
@@ -38,4 +39,4 @@ A lightweight, dependency-free image gallery written in modern JavaScript. Inspi
 
   <script type="module" src="js/main.js"></script>
 </body>
-
+```
