@@ -9,10 +9,6 @@ A lightweight, dependency-free image gallery written in modern JavaScript. Inspi
 - Responsive grid layout
 - Minimal, customizable styles
 
-## Demo
-
-[Live Demo Here](#)
-
 ## Usage
 
 ```html
